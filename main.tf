@@ -10,8 +10,4 @@ locals {
      
  Example      = setproduct(["${var.region}"],["${local.az_zone1}"],["${local.az_zone2[1]}"],["${local.environment[0]}"],["${local.os[0]}"])
  
- 
- #Example      = setproduct(["${var.region}"],["${local.az_zone1}"],["${local.az_zone2}"],["${local.environment}"],["${local.os}"])
- # num             = "${var.region}${local.az_zone1}${local.az_zone2[0]}${local.environment[*]}${local.os[*]}}"
-
-}
+ }
