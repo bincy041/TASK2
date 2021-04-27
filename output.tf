@@ -16,6 +16,5 @@ output"EXAMPLE"{
 
 
 
-# value=join(" " ,local.Example)
-#value=[for Example in local.Example : "${join("", Example)}"]
+
 
